@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+#header-name {
+  background: -webkit-linear-gradient(#cb6ce6, #004aad);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#header-desc {
+  background: -webkit-linear-gradient(right, #4fd939, #ff2d2d);
+  /* opacity: 60%; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
